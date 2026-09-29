@@ -1,30 +1,30 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# Java build output (applies to projects at any depth)
+*.class
+**/out/
+**/target/
+**/build/
+**/bin/
+**/.gradle/
+**/.kotlin/
 
-### Eclipse ###
+# IDE and local machine files
+**/.idea/
+*.iml
+**/.vscode/
+**/.settings/
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+.classpath
+.project
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
 .DS_Store
+Thumbs.db
+
+# Local backup of test2's former standalone Git repository
+**/.git.previous/
